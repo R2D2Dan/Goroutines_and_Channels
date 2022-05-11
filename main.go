@@ -20,6 +20,7 @@ func main() {
 }
 
 func Find(Mine *[5]string, MetalChanel *chan string) {
+
 	for _, m := range Mine {
 		if m == "ore" {
 			log.Printf("Find: ore")
